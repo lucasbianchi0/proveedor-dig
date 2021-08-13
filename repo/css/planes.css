@@ -1,0 +1,130 @@
+
+
+
+:root {
+    --main-color: rgb(67, 67, 255);
+    --color-titulos: #19264a; 
+    --verde: rgb(41, 216, 132);
+    --rojo: rgb(255, 68, 31);
+  }
+
+
+
+
+.planes{
+    padding: 100px 0;
+}
+
+.portada-planes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-planes{
+    max-width: 650px;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    transform: translateY(60px);
+
+}
+
+.caja-tipo-precios{
+    display: flex;
+    margin:80px 0;
+    justify-content: center;
+}
+
+.caja-tipo-precios button{
+    margin: 0 20px;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: transparent;
+    color: rgb(41, 216, 132);
+    font-weight: 700;
+
+}
+
+#borde{
+    border: 1px solid rgb(41, 216, 132);;
+}
+
+.contenedor-cajas-planes{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.caja-planes{
+    text-align: center;
+    margin: 0 auto;
+    padding: 26px  ;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    margin-bottom: 30px;
+    width: 300px;
+    height: 500px;
+}
+
+
+
+.caja-planes h4{
+    color: var(--color-titulos);
+    font-size: 1.75rem;
+    margin: 10px;
+}
+
+.precio-planes{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(41, 216, 132);
+    color: var(--main-color);
+    margin: 45px 0;
+    
+
+}
+
+.caja-planes h5{
+    margin: 8px 5px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+
+}
+
+.beneficios-planes{
+    margin: 0.75rem;
+    padding: 0px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #666;
+
+}
+
+.boton-planes{
+    color: #fff;
+    border-radius: 16px;
+    padding: 16px 18px;
+    margin-top: 28px;
+    background-color: var(--main-color);
+    background-color: rgb(41, 216, 132);
+    border: transparent;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+
+.alfaka{
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estilo-plan-anual{
+    display: flex;
+    justify-content: space-between;
+}
+

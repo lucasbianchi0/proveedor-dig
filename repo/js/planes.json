@@ -1,0 +1,25 @@
+
+
+[{
+    "tipo": "Free",
+    "precio":"$0 /mes",
+    "beneficio1":"Hasta 10 proveedores",
+    "beneficio2":"Hasta 4 envios incluidos",
+    "beneficio3":"Lorem ipsum dolor sit"
+},
+
+{
+    "tipo": "Standard",
+    "precio":"$400 /mes",
+    "beneficio1":"Hasta 20 proveedores",
+    "beneficio2":"Hasta 8 envios incluidos",
+    "beneficio3":"Ejecutivo de cuenta"
+},
+
+{
+    "tipo": "Premium",
+    "precio":"$1500 /mes",
+    "beneficio1":"Proveedores ilimitados",
+    "beneficio2":"Envios ilimitados",
+    "beneficio3":"Atencios personalizada"
+}]
