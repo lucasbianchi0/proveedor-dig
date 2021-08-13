@@ -30,14 +30,14 @@ function enviarMail(e){
     
     
     const valorEmail = mailEnviado.value
-
+    const dataMail = [`@gmail.com`, `@gmail.com.ar`, `@hotmail.com`]
 
     borrarMail()
 
     if(!valorEmail.includes(`@gmail.com`)){
     
         denegado.innerHTML = 
-        `Error: Recuerda que el mail debe contener "@gmail.com"`;
+        `Error: Recuerda que el mail debe contener "@"`;
         denegado.classList.add(`newsle-denegado`)
         respuestaMail.appendChild(denegado)  
 

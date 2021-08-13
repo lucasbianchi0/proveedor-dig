@@ -118,9 +118,9 @@
 
 
 .alfaka{
-    margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
+    margin-top: 6.25rem;
 }
 
 .estilo-plan-anual{
